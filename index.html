@@ -227,7 +227,7 @@
 <!-- Overlay de bloqueio -->
 <div id="partnerLogoOverlay">
   <img src="Volvo.jpg" alt="Parceiro Nascentes">
-  <p>⚠️ Disponível apenas em 20/09/2025 às 18:50</p>
+  <p>⚠️ Disponível apenas em 20/09/2025 às 19:00</p>
 </div>
 
 <iframe name="hidden_iframe" style="display:none;"></iframe>
@@ -284,7 +284,7 @@ var partnerOverlay = document.getElementById("partnerLogoOverlay");
 
 closeBtn.onclick = () => formBox.style.display = "none";
 
-var dataLiberacao = new Date("2025-09-20T19:00:00");
+var dataLiberacao = new Date("2025-09-20T18:00:00");
 
 function verificarDisponibilidade() {
   var agora = new Date();
@@ -344,4 +344,5 @@ atualizarStatus();
 </script>
 </body>
 </html>
+
 
